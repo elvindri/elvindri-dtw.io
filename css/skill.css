@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Knewave&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Oxanium:wght@200..800&family=Quicksand:wght@300..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Genos:ital,wght@0,100..900;1,100..900&family=Knewave&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Oxanium:wght@200..800&family=Quicksand:wght@300..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.nav-link{
+	text-transform: uppercase;
+	margin-top: 3px;
+	margin-right: 20px;
+	font-family: oxanium;
+	font-size: 15px;
+	color: whitesmoke;
+}
+
+.nav-link:hover::after {
+	content: '';
+	display: ;
+	border-bottom: 2px solid whitesmoke ;
+	width: 80%;
+	margin: auto;
+	padding-bottom: 5px;
+	margin-bottom: -8px;
+}
+
+.navbar-brand {
+	font-family: oxanium;
+	color: whitesmoke;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.text-info {
+	font-family: oxanium;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.navbar-color {
+	background-color: #384B70;
+}
+
+.button-down {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 10px 10px;
+	border-radius: 60px;
+	border-color: whitesmoke;
+	opacity: 98%;
+	background-color: white;
+}
+
+.logo-content{
+	background-color: #f3f3f3;
+	padding-top: 3rem;
+	padding-bottom: 10rem;
+}
+
+.head-text-logo {
+	padding-top: 5rem;
+	font-family: oxanium;
+	font-size: 30px;
+}
+
+.logo-content img {
+	float: left;
+}
+
+.logo-content h4 {
+	margin-top: 20px;
+	font-size: 20px;
+	font-family: oxanium;
+}
+
+.progress {
+	background-color: darkgray;
+}
+
+.progress-bar {
+	background-color: #384B70;
+}
+
+.row {
+	margin-right: 60px;
+	margin-left: 60px;
+}
+
+.col {
+	margin-top: 100px;
+}
+
+.footer {
+	background-image: url(../img/bg-pict.jpg);
+	background-color: #f3f3f3;
+	padding-top: 2rem;
+}
+
+.text-footer {
+	font-size: 50px;
+	padding-top: 10px;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	text-align: center;
+	color: black;
+}
+
+.logo-footer {
+	color: #62daf4;
+	font-family: oxanium;
+	font-weight: bold;
+}
+
+.font-created {
+	font-family: oxanium;
+}
+
+.link-footer-div {
+	font-family: oxanium;
+	margin: auto;
+}
+
+.link-footer {
+	color: black;
+}

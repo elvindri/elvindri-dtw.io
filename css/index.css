@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Knewave&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Oxanium:wght@200..800&family=Quicksand:wght@300..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Genos:ital,wght@0,100..900;1,100..900&family=Knewave&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Oxanium:wght@200..800&family=Quicksand:wght@300..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.nav-link{
+	text-transform: uppercase;
+	margin-top: 3px;
+	margin-right: 20px;
+	font-family: oxanium;
+	font-size: 15px;
+	color: whitesmoke;
+}
+
+.nav-link:hover::after {
+	content: '';
+	display: block;
+	border-bottom: 2px solid whitesmoke ;
+	width: 80%;
+	margin: auto;
+	padding-bottom: 5px;
+	margin-bottom: -8px;
+}
+
+.navbar-brand {
+	font-family: oxanium;
+	color: whitesmoke;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.text-info {
+	font-family: oxanium;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.navbar-color {
+	background-color: #384B70;
+}
+
+.txt-welcome {
+	font-family: oxanium;
+	font-weight: bold;
+	color: #ebcf1a;
+	padding-top: 80px;
+	font-size: 50px;t
+}
+
+.button-down {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 10px 10px;
+	border-radius: 60px;
+	border-color: whitesmoke;
+	opacity: 98%;
+	background-color: white;
+}
+
+.home-content {
+	background-color: #384B70;
+	padding-bottom: 150px;
+	padding-top: 5rem;
+}
+
+.profile-1 {
+	box-shadow: 10px 10px black;
+	border-radius: 5px;
+}
+
+.col-text {
+	font-family: oxanium;
+	color: white;
+	text-align: justify;
+	padding-bottom: 60px;
+	margin-right: 2rem;
+	margin-left: 2rem;
+}
+
+.col-img {
+	text-align: center;
+	border: 10px;
+	padding-top: ;
+}
+
+.paragraph-main {
+	font-family: oxanium;
+	color: whitesmoke;
+	font-size: 18px;
+}
+
+.btn-contact {
+	width: 100px;
+	font-family: oxanium;
+	background-color: whitesmoke;
+	border: 1px solid darkgray;
+	border-color: darkslategray;
+	color: black;
+	font-weight: bolder;
+	font-size: 13px;
+}
+
+.lesson-learned {
+	padding: 2rem 2rem;
+	background-color: ;
+}
+
+.card-content {
+	margin: 50px;
+}
+
+.card-text {
+	color: black;
+	text-align: center;
+}
+
+.text-lesson {
+	padding-top: 20px;
+	font-family: oxanium;
+	font-size: 23px;
+	text-align: center;
+}
+
+.card {
+	border: 5px solid #f3f3f3;
+	font-family: oxanium;
+	background-color: #f3f3f3;
+	margin: auto;
+	margin-block: 30px;
+	background-image: url(../img/bg-pict.jpg);
+}
+
+.content-uph-about {
+	margin: auto;
+	margin-top: 8rem;
+	margin-bottom: 8rem;
+}
+
+.uph-about {
+	background-image: url(../img/bg-pict.jpg);
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.uph-about img {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.head-uph-about {
+	size: 10px;
+	font-family: oxanium;
+	font-size: 23px;
+	text-align: center;
+	margin-bottom: 5rem;
+}
+
+.text-uph-about {
+	margin: auto;
+	font-family: oxanium;
+	text-align: left;
+}
+
+.review-content {
+	background-color: #f3f3f3;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.head-review {
+	font-family: montserrat;
+	font-size: 23px;
+	text-align: center;
+}
+
+.profile-2 {
+	padding-left: 100px;
+	border-radius: 100%;
+	margin-top: 20px;
+	box-shadow: 10px 10px darkgray;
+}
+
+.text-review {
+	font-family: oxanium;
+	margin-top: 110px;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.working {
+	font-family: oxanium;
+	background-color: #fafafa;
+	padding-top: 5rem;
+	padding-bottom: 2rem;
+}
+
+.text-head-working {
+	font-family: oxanium;
+	font-size: 23px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.footer {
+	background-image: url(../img/bg-pict.jpg);
+	background-color: #f3f3f3;
+	padding-top: 2rem;
+}
+
+.text-footer {
+	font-size: 50px;
+	padding-top: 10px;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	text-align: center;
+	color: black;
+}
+
+.logo-footer {
+	color: #62daf4;
+	font-family: oxanium;
+	font-weight: bold;
+}
+
+.font-created {
+	font-family: oxanium;
+}
+
+.link-footer-div {
+	font-family: oxanium;
+	margin: auto;
+}
+
+.link-footer {
+	color: black;
+}
+
+.schedule-content {
+	text-align: center;
+	font-family: oxanium;
+	margin: auto;
+	padding-top: 5rem;
+	padding-bottom: 10rem;
+}
+
+.text-head-schedules {
+	font-family: oxanium;
+	font-size: 23px;
+	padding-bottom: 3rem;
+}
+
+.date-text {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin: auto;
+	color: whitesmoke;
+}
+
+.single-text {
+	padding-top: 40px;
+}
+
+.double-text {
+	margin-top: 30px;
+}
+
+.box-1 {
+	margin-left: 80px;
+	margin-top: 30px;
+	background-color: #384B70;
+}
+
+.box-2 {
+	margin-right: 80px;
+	margin-top: 30px;
+	background-color: #f3f3f3;
+	background-image: url(../img/bg-pict.jpg);
+}
+
+.box-3 {
+	margin-left: 80px;
+	margin-top: 30px;
+	background-color: #384B70 ;
+}
+
+.box-4 {
+	margin-right: 80px;
+	margin-top: 30px;
+	background-color: #f3f3f3;
+	background-image: url(../img/bg-pict.jpg);
+}
+
+.box-5 {
+	margin-left: 80px;
+	margin-top: 30px;
+	background-color: #384B70;
+}
+
+.box-6 {
+	margin-right: 80px;
+	margin-top: 30px;
+	background-color: #f3f3f3;
+	background-image: url(../img/bg-pict.jpg);
+}
+
+.box-7 {
+	margin-left: 80px;
+	margin-top: 30px;
+	background-color: #384B70;
+}
+
+.box-8 {
+	margin-right: 80px;
+	margin-top: 30px;
+	background-color: #f3f3f3;
+	background-image: url(../img/bg-pict.jpg);
+}
+
+.box-9 {
+	margin-left: 80px;
+	margin-top: 30px;
+	background-color: #384B70;
+}
+
+.box-10 {
+	margin-right: 80px;
+	margin-top: 30px;
+	background-color: #f3f3f3;
+	background-image: url(../img/bg-pict.jpg);
+}
+
+.box-11 {
+	margin-left: 80px;
+	margin-top: 30px;
+	background-color: #384B70;
+}
+.box-12 {
+	margin-right: 80px;
+	margin-top: 30px;
+	background-color: #f3f3f3;
+	background-image: url(../img/bg-pict.jpg);
+}

@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Knewave&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Oxanium:wght@200..800&family=Quicksand:wght@300..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Genos:ital,wght@0,100..900;1,100..900&family=Knewave&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Oxanium:wght@200..800&family=Quicksand:wght@300..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.nav-link{
+	text-transform: uppercase;
+	margin-top: 3px;
+	margin-right: 20px;
+	font-family: oxanium;
+	font-size: 15px;
+	color: whitesmoke;
+}
+
+.nav-link:hover::after {
+	content: '';
+	display: block;
+	border-bottom: 2px solid whitesmoke ;
+	width: 80%;
+	margin: auto;
+	padding-bottom: 5px;
+	margin-bottom: -8px;
+}
+
+.navbar-brand {
+	font-family: oxanium;
+	color: whitesmoke;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.text-info {
+	font-family: oxanium;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.navbar-color {
+	background-color: #384B70;
+}
+
+.button-down {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 10px 10px;
+	border-radius: 60px;
+	border-color: whitesmoke;
+	opacity: 98%;
+	background-color: white;
+}
+
+.about-content {
+	background-color: #f3f3f3;
+	background-image: url(../img/bg-pict.jpg);
+}
+
+.main-profile {
+	margin-top: 5rem;
+	margin-left: 2rem;
+	box-shadow: 10px 10px darkgray;
+	border-radius: 5px;
+}
+
+.main-text {
+	text-align: justify;
+	margin-top: 25%;
+	margin-bottom: 25%;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-family: oxanium;
+	text-align: justify;
+}
+
+.main-text h4 {
+	text-align: justify;
+	font-family: oxanium;
+	text-align: justify;
+	font-size: 23px;
+}
+
+
+.education-history {
+	font-size: 23px;
+	font-family: oxanium;
+	text-align: center;
+	color: #f3f3f3;
+	padding-top: 5rem;
+	padding-bottom: 3rem;
+}
+
+.education-content {
+	color: whitesmoke;
+	background-color: #384B70;
+	padding-bottom: 5rem;
+}
+
+.line-distance {
+	height: 1px;
+	background-color: whitesmoke;
+}
+
+.education-content p {
+	font-family: oxanium;
+	font-size: 15px;
+	background-color: #384B70;
+}
+
+.quotes-content p {
+	background-color: #f3f3f3;
+	font-size: 17px;
+	font-family: oxanium;
+	text-align: center;
+	padding: 2rem 2rem;
+}
+
+.quotes-content h4 {
+	font-size: 23px;
+	font-family: oxanium;
+	text-align: center;
+	padding-top: 5rem;
+	padding-bottom: 1rem;
+}
+.quotes {
+	margin: auto;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 40px;
+}
+
+.hobbies-content {
+	padding-bottom: 5rem;
+}
+
+.hobbies-content h5 {
+	text-align: center;
+	padding-top: 20%;
+	font-family: oxanium;
+}
+
+.hobbies-content h4 {
+	text-align: center;
+	font-family: oxanium;
+	font-size: 23px;
+	padding-top: 3rem;
+	padding-bottom: 2rem;
+}
+
+.footer {
+	background-image: url(../img/bg-pict.jpg);
+	background-color: #f3f3f3;
+	padding-top: 2rem;
+}
+
+.text-footer {
+	font-size: 50px;
+	padding-top: 10px;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	text-align: center;
+	color: black;
+}
+
+.logo-footer {
+	color: #62daf4;
+	font-family: oxanium;
+	font-weight: bold;
+}
+
+.font-created {
+	font-family: oxanium;
+}
+
+.link-footer-div {
+	font-family: oxanium;
+	margin: auto;
+}
+
+.link-footer {
+	color: black;
+}
